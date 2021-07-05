@@ -1,0 +1,5 @@
+#+TITLE: Readme
+#+AUTHOR: Joshua Suskalo
+#+EMAIL: joshua@suskalo.org
+#+LANGUAGE: en
+#+STARTUP: inlineimages nofold
