@@ -3,5 +3,6 @@ All notable changes to this project will be documented in this file. This change
 
 # [Unreleased]
 
-[Unreleased]: https://github.com/IGJoshua/literate-cljsl/compare/...HEAD
+[Unreleased]: https://github.com/IGJoshua/literate-cljsl/compare/5b4c93c0f016530e2e6fe25246f8eabc74dba2c6...HEAD
+
 
