@@ -14,3 +14,7 @@ tangle:
         (setq org-confirm-babel-evaluate nil)                  \
         (cl-loop for f in (split-string \"{{ORG_FILES}}\")     \
             do (org-babel-tangle-file f)))"
+
+install-hooks:
+    @ln -f pre-commit .git/hooks/pre-commit
+    @ln -f post-commit .git/hooks/post-commit
