@@ -1,0 +1,9 @@
+*.jar
+*.class
+.cpcache/
+
+# Because of literate programming, the actual code shouldn't be checked in
+deps.edn
+src/clj/**/*.clj
+src/cljc/**/*.cljc
+src/cljs/**/*.cljs
