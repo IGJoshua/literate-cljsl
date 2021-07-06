@@ -1,3 +1,7 @@
+# Local Variables:
+# mode: makefile
+# End:
+
 ORG_FILES := `find -iregex "^.*\.org$"`
 
 tangle:
