@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+# When we've just made a commit
+if [ -e .commit ]
+then
+    rm .commit
+
+    # Clean up the working tree
+    git add .
+    git stash
+
+    # Tangle the newly-edited files
+    just tangle
+
+    # Amend the commit with all the tangled files
+    git add .
+    git commit --amend -C HEAD --no-verify
+
+    # Return the working tree to its prior state
+    git stash pop
+    git reset
+fi
